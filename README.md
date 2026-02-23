@@ -1,68 +1,87 @@
+
+
 ```markdown
-<div align="center">
+# ThundeRobot Zero BIOS Backup
 
-![ThundeRobot](https://img.shields.io/badge/ThundeRobot-Zero-FF6B00?style=for-the-badge&logo=thunder&logoColor=white)
-![BIOS](https://img.shields.io/badge/BIOS-Backup%20%26%20Unlock-00D26A?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Intel-11th%20Gen%20i7-0071C5?style=for-the-badge&logo=intel&logoColor=white)
-![GPU](https://img.shields.io/badge/NVIDIA-RTX%203060-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+**Original OEM & Unlocked BIOS for 11th Gen i7 + RTX 3060**
 
-# ⚡ ThundeRobot Zero BIOS Repository
-
-**Original OEM BIOS & Unlocked Advanced BIOS for 11th Gen i7 + RTX 3060**
-
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)]()
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2024-blue.svg)]()
-
-</div>
+⚠️ **WARNING**: BIOS modification carries risks. Proceed with caution.
 
 ---
 
-## 📋 Overview
+## 📁 Files in this Repo
 
-This repository contains BIOS firmware files for the **ThundeRobot Zero gaming laptop** (11th Gen Intel i7 + NVIDIA RTX 3060 configuration), including:
-
-- ✅ **Original OEM BIOS backup** — Factory default settings
-- 🔓 **Unlocked Advanced BIOS** — Full feature access including Optimus toggle
-- 🛠️ **Flashing tools & scripts** — Easy backup and flash utilities
-
-> ⚠️ **WARNING**: BIOS modification carries inherent risks. Proceed with caution and at your own risk.
-
----
-
-## 📁 Repository Contents
-
-| File | Description | Purpose |
-|------|-------------|---------|
-| `backup.fd` | Original OEM BIOS | Factory default firmware backup |
-| `advanced unlock(i7+3060).fd` | Unlocked BIOS | Modified firmware with advanced features enabled |
-| `FPTW64.exe` | Intel Flash Programming Tool | Official BIOS flasher utility |
-| `flash backup bios.bat` | Backup Script | Creates backup of current BIOS |
-| `flash new bios.bat` | Flash Script | Flashes the unlocked/modified BIOS |
-| `pick up current bios.bat` | Read Script | Extracts current BIOS from system |
+| File | Description |
+|------|-------------|
+| `backup.fd` | Original OEM BIOS |
+| `advanced unlock(i7+3060).fd` | Unlocked BIOS with advanced features |
+| `FPTW64.exe` | Intel BIOS flashing tool |
+| `flash backup bios.bat` | Backup your current BIOS |
+| `flash new bios.bat` | Flash the unlocked BIOS |
+| `pick up current bios.bat` | Read current BIOS from system |
 
 ---
 
-## 🚀 Key Features (Unlocked BIOS)
+## ✨ What's Unlocked?
 
-The modified BIOS unlocks several advanced features not available in the stock firmware:
-
-| Feature | Status | Description |
-|---------|--------|-------------|
-| 🔧 **Optimus Toggle** | ✅ Enabled | Manually enable/disable NVIDIA Optimus |
-| 🎮 **GPU Switching** | ✅ Unlocked | Direct control over dGPU/iGPU configuration |
-| ⚙️ **Advanced Settings** | ✅ Exposed | Full access to hidden BIOS options |
-| 🌡️ **Thermal Controls** | ✅ Enhanced | Advanced fan and thermal management |
-| 📊 **Power Management** | ✅ Unlocked | Customizable power limits and profiles |
-
-> 📌 **Note**: Complete feature list available in the original Chinese forum guide (see [Resources](#-resources)).
+- **Optimus Toggle** — Manually enable/disable NVIDIA Optimus
+- **GPU Switching** — Direct dGPU/iGPU control
+- **Advanced Settings** — Full access to hidden BIOS options
+- **Thermal Controls** — Enhanced fan/power management
 
 ---
 
-## ⚡ Quick Start
+## 🚀 How to Use
 
-### 1. Backup Your Current BIOS (Recommended)
-
+**1. Backup your current BIOS:**
 ```batch
-# Run as Administrator
 flash backup bios.bat
+```
+
+**2. Flash the unlocked BIOS:**
+```batch
+flash new bios.bat
+```
+
+**3. Read current BIOS:**
+```batch
+pick up current bios.bat
+```
+
+> Run all scripts as **Administrator**
+
+---
+
+## 📚 Original Source
+
+Full guide, drivers, and additional files (Chinese):  
+🔗 [Google Drive](https://drive.google.com/file/d/1bZNRviE5K-lNYSZVfvtZAM18mY2dbyo7/view?usp=sharing)
+
+---
+
+## ⚠️ Important
+
+- **Risk**: Bad flash can brick your laptop
+- **Warranty**: May void manufacturer warranty
+- **Power**: Keep laptop plugged in during flash
+- **Recovery**: Have SPI programmer ready as backup
+
+---
+
+## 🖥️ Compatibility
+
+- **Model**: ThundeRobot Zero
+- **CPU**: 11th Gen Intel Core i7
+- **GPU**: NVIDIA RTX 3060
+
+---
+
+## 📧 Contact
+
+Found issues? [Open an issue](https://github.com/patangal/thunderobot_zero_bios/issues) or contact me.
+
+---
+
+**Disclaimer**: Use at your own risk. Not affiliated with ThundeRobot or Intel.
+```
+
