@@ -1,6 +1,3 @@
-
-
-```markdown
 # ThundeRobot Zero BIOS Backup
 
 **Original OEM & Unlocked BIOS for 11th Gen i7 + RTX 3060**
@@ -83,5 +80,3 @@ Found issues? [Open an issue](https://github.com/patangal/thunderobot_zero_bios/
 ---
 
 **Disclaimer**: Use at your own risk. Not affiliated with ThundeRobot or Intel.
-```
-
