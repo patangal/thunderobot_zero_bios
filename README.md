@@ -79,4 +79,4 @@ Found issues? [Open an issue](https://github.com/patangal/thunderobot_zero_bios/
 
 ---
 
-**Disclaimer**: Use at your own risk. Not affiliated with ThundeRobot or Intel.
+**Disclaimer**: Use at your own risk. Not affiliated with ThundeRobot or Intel OEM.
